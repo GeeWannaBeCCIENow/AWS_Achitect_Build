@@ -40,7 +40,7 @@ resource "aws_security_group" "alb_sg" {
 }
 
 resource "aws_security_group" "ec2_sg" {
-  name   = "sharmi-sg_for_ec2"
+  name   = "sg_ec2"
   vpc_id = aws_vpc.my_vpc.id
 
   ingress {
