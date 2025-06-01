@@ -25,7 +25,7 @@ resource "aws_instance" "instance1" {
 
               # Restart NGINX to apply the changes
               sudo systemctl restart nginx
-              EOF 
+              EOF  
 
   tags = {
     Name = "Server-1"
